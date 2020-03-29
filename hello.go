@@ -1,17 +1,21 @@
 package main
 
+// libraries
 import (
 	"fmt"
 	"math"
 	"math/rand"
 )
 
+// first function
 func add(x, y int) int {
 	var z int
 	z = x + y
 	return z
 }
 
+// swap between 2 variables
+// (string, string) --> return types!
 func swapper(x, y string) (string, string) {
 
 	return y, x
@@ -19,20 +23,20 @@ func swapper(x, y string) (string, string) {
 
 // A return statement without arguments returns the
 // named return values. This is known as a "naked" return.
-
 func nakedReturn(sum int) (x, y int) {
 	x = sum / 9 * 4
 	y = sum - x
 	return
 }
 
+// defining variables
 func defineVariable() {
-
 	var c, python bool
 	python = true
 	fmt.Println(c, python)
 }
 
+// defining variables
 func defineVariable2() {
 	var i, j int = 1, 2
 	var c, python, java = true, false, "NO!"
