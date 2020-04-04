@@ -64,4 +64,7 @@ func main() {
 	defineVariable()
 
 	defineVariable2()
+
+	// I finished here!
+	// https://tour.golang.org/basics/11
 }
